@@ -26,6 +26,7 @@ public class ChangeCalculator {
 				dim = dimes;
 				nick = nickels;
 				answer = dim + nick;
+				JOptionPane.showMessageDialog(null, answer);
 
 				
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
