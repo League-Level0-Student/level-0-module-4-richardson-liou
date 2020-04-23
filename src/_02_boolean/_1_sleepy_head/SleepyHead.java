@@ -15,10 +15,20 @@ public class SleepyHead {
         
          // Ask the user for these values using a confirm dialog like the one below
          
-         JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
-         
-         
-         */
+        int day = JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_CANCEL_OPTION);
+        System.out.println(day);
+        if (day == 0) {
+        	JOptionPane.showMessageDialog(null, "get up lazybones!");
+        }
+        else if (day == 1) {
+        	JOptionPane.showMessageDialog(null, "Sleep in?");
+        }
+        else if (day == 2) {
+        	JOptionPane.showMessageDialog(null, "Sleep in?");
+        }
+        
+        	
+        
     
 
 
